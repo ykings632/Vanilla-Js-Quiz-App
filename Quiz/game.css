@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    background:#f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.choice-container{
+    display: flex;
+    padding: 0.4rem;
+    margin: 1rem;
+    background: lightskyblue;
+    font-size: 1.8rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.choice-containers{
+    width: 100%;
+    margin: 1rem 1rem;
+}
+.choice-prefix{
+    background: white;
+    padding: 1.1rem 2.5rem;
+}
+.choice-text{
+    padding: 1rem;
+    width: 100%;
+}
+.hero h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.3rem;
+}
+.choice-container p{
+    font-family: 'Open Sans', sans-serif;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86,185,235,0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 50ms;
+}
+.correct{
+    background-color: aquamarine;
+}
+.incorrect{
+background-color: red;
+}
+.upper-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: white;
+}
+.upper-content h1{
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: rgba(69, 196, 228, 0.589);
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+#progressbar{
+    width: 20rem;
+    height: 2.8rem;
+    border: 0.3rem solid lightskyblue;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+#progressbarfull{
+    height: 2.3rem;
+    background: lightskyblue;
+    width: 0%;
+}

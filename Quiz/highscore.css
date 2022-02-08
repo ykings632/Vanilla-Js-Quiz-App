@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Yellowtail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(233, 219, 219);
+    min-height: 100vh;
+    width: 100%;
+}
+.hero{
+    width: 50%;
+    min-height: 70vh;
+    background: white;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#finalhighscore{
+    font-size: 4rem;
+    font-family: 'Yellowtail', cursive;
+}
+#highscoreslist{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+#finalhighscore,
+#highscoreslist{
+    margin: 5rem 0;
+}
+button{
+    padding: 1rem 1.5rem;
+    border: 2px solid skyblue;
+    background: white;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
